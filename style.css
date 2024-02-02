@@ -1,0 +1,50 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(nigga.webp);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .download-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background-image: linear-gradient(to bottom right, #4CAF50, #45a049);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .download-button:focus {
+            outline: none;
+        }
+
+        .download-button:active {
+            transform: translateY(1px);
+            box-shadow: none;
+        }
+
+        /* .download-button::after {
+            content: '\2193'; Unicode arrow down character
+            margin-left: 5px;
+        } */
